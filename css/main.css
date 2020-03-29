@@ -1,0 +1,32 @@
+/*웹폰트*/
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+
+/*초기화*/
+@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css);
+
+/*기본 스타일*/
+body {
+  font-family: 'Spoqa Han Sans',  'Sans-serif';
+  font-weight: 400;
+}
+
+/*공통 스타일*/
+.reset-margin {
+  margin-top:0;
+  margin-bottom: 0;
+}
+.reset-list{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.a11y-hidden{
+  background-color: red;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  clip-path: polygon(0 0, 0 0, 00);
+}
